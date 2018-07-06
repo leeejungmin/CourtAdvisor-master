@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1030578449473",
+    "firebase_url": "https://courtadvisor-a7442.firebaseio.com",
+    "project_id": "courtadvisor-a7442",
+    "storage_bucket": "courtadvisor-a7442.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030578449473:android:256af7d8467f21df",
+        "android_client_info": {
+          "package_name": "com.edu.pc.courtadvisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030578449473-utjik4mj9u67ggg33cpodmh04g5s4nf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPLQ56KIDmKOsBGNB7qSgkWeCA6v7t4OU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

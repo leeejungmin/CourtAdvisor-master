@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "814254044994",
+    "firebase_url": "https://courtadvisor-71319.firebaseio.com",
+    "project_id": "courtadvisor-71319",
+    "storage_bucket": "courtadvisor-71319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814254044994:android:256af7d8467f21df",
+        "android_client_info": {
+          "package_name": "com.edu.pc.courtadvisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814254044994-4j33lkib15vicvghh6dgrhi7os90sqph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edu.pc.courtadvisor",
+            "certificate_hash": "aac2de8d1e42fce72a00fff4c6f1cda79a414580"
+          }
+        },
+        {
+          "client_id": "814254044994-fd6ucpo2fivss0qqibo25v4fonpsmp1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD72zP7MOEMOfBGq0rHYqk29ozvJGNGaUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814254044994-fd6ucpo2fivss0qqibo25v4fonpsmp1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

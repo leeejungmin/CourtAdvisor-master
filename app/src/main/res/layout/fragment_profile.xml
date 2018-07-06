@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:xlmns="http://schemas.android.com/apk/res-auto"
+    tools:context="com.edu.pc.courtadvisor.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorGrey"
+            android:scaleType="center" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:src="@drawable/userprofile" />
+
+        <ImageButton
+            android:id="@+id/editProfilePic"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/profil_username"
+            android:layout_alignEnd="@+id/profile_image"
+            android:layout_alignRight="@+id/profile_image"
+            android:src="@drawable/ic_photo" />
+
+        <TextView
+            android:id="@+id/profil_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/profile_image"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:text="@string/username"
+            android:cursorVisible="false"
+            />
+
+        <TextView
+            android:id="@+id/profil_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"
+            android:layout_below="@+id/profil_username"
+            android:text="@string/status"/>
+
+        <TextView
+            android:id="@+id/profil_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"
+            android:layout_below="@+id/profil_status"
+            android:text="@string/email"/>
+
+
+        <FrameLayout
+            android:id="@+id/profil_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profil_email">
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>

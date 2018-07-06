@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:fillViewport="true"
+    tools:context="com.edu.pc.courtadvisor.AddCourtActivity"
+    tools:showIn="@layout/activity_add_court">
+
+
+    <ImageView
+        android:id="@+id/courtImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:scaleType="centerCrop"
+        android:minHeight="200dp"
+        android:minWidth="200dp"
+        app:srcCompat="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/takePictureBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/courtImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/prendre_photo"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/AppTheme" />
+
+
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/takePictureBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Adresse"
+        android:inputType="textPostalAddress"
+        android:theme="@style/EditTextTheme" />
+
+    <Button
+        android:id="@+id/fecthAddressBtn"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/takePictureBtn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/addressInput"
+        android:drawableLeft="@drawable/ic_gps_fixed_black_24dp" />
+
+    <EditText
+        android:id="@+id/nbrHoops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addressInput"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Nombre de panier"
+        android:inputType="numberSigned"
+        android:theme="@style/EditTextTheme" />
+
+    <Button
+        android:id="@+id/createCourt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nbrHoops"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/valider"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

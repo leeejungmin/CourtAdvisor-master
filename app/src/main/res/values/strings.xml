@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CourtAdvisor</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="login">Login</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="log_in">Se Connecter</string>
+    <string name="password">Password</string>
+    <string name="register">S\'inscrire ici.</string>
+
+    <string name="menu_map">Map</string>
+    <string name="menu_feed">Activité</string>
+    <string name="menu_chat">Communauté</string>
+    <string name="menu_profil">Profil</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_court">AddCourtActivity</string>
+    <string name="action_add">action add</string>
+    <string name="action_settings">action settings</string>
+    <string name="prendre_photo">Prendre Photo</string>
+    <string name="valider">Valider</string>
+    <string name="invalid_lat_long_used">invalide lat long used</string>
+    <string name="service_not_available">Service is not available</string>
+    <string name="no_address_found">No address found</string>
+    <string name="address_found">Address was found</string>
+    <string name="title_activity_add_match">AddMatchActivity</string>
+    <string name="team_1_name">Team 1 Name</string>
+    <string name="score">Score</string>
+    <string name="team_2_name">Team 2 Name</string>
+    <string name="title_activity_show_event">ShowEventActivity</string>
+    <string name="match">Match</string>
+    <string name="email">Email</string>
+    <string name="add">Add</string>
+    <string name="log_out">Log out</string>
+    <string name="search">Search</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="status">Status</string>
+    <string name="title_activity_friend_list">FriendListActivity</string>
+    <string name="display_name">Display Name</string>
+    <string name="default_status">Display default Status</string>
+    <string name="send_friend_request">SEND FRIEND REQUEST</string>
+    <string name="friend_count">Friend count</string>
+    <string name="deny_friend_request">DENY FRIEND REQUEST</string>
+    <string name="message_date">Message date</string>
+</resources>

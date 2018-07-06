@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:\ece paris\CourtAdvisor-master\CourtAdvisor-master\CourtAdvisor.iml" filepath="D:\ece paris\CourtAdvisor-master\CourtAdvisor-master\CourtAdvisor.iml" />
+      <module fileurl="file://C:\Users\pierre\AndroidStudioProjects\CourtAdvisor\.idea\CourtAdvisor.iml" filepath="C:\Users\pierre\AndroidStudioProjects\CourtAdvisor\.idea\CourtAdvisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CourtAdvisor-master.iml" filepath="$PROJECT_DIR$/CourtAdvisor-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\ece paris\CourtAdvisor-master\CourtAdvisor-master\app\app.iml" filepath="D:\ece paris\CourtAdvisor-master\CourtAdvisor-master\app\app.iml" />
+    </modules>
+  </component>
+</project>

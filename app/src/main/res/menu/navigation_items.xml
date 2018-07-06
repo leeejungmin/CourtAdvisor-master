@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/navigation_map"
+        android:title="@string/menu_map"
+        android:icon="@drawable/ic_map" />
+
+    <item android:id="@+id/navigation_feed"
+        android:title="@string/menu_feed"
+        android:icon="@drawable/ic_feed"
+        app:itemIconTint="@color/colorPrimary" />
+
+    <item android:id="@+id/navigation_chat"
+        android:title="@string/menu_chat"
+        android:icon="@drawable/ic_chat"
+        app:itemIconTint="@color/colorPrimary"/>
+
+    <item android:id="@+id/navigation_profil"
+        android:title="@string/menu_profil"
+        android:icon="@drawable/ic_profil"
+        app:itemIconTint="@color/colorPrimary"/>
+</menu>
